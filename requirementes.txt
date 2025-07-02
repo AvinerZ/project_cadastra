@@ -1,4 +1,6 @@
 requests==2.32.3
 pandas==2.2.2
 python-dotenv==1.0.1
-SQLAlchemy==2.0.31 # NOVO
+SQLAlchemy==2.0.31
+gspread==6.1.1 # NOVO
+oauth2client==4.1.2
