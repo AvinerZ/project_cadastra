@@ -9,10 +9,7 @@ OTHER_COINS_SHEET_NAME = "outras criptos"
 
 
 def process_and_persist_crypto_data():
-    """
-    Orquestra a busca de dados da API, o processamento,
-    o salvamento no SQLite e o upload para o Google Sheets.
-    """
+    
     print("--- Iniciando a Pipeline de Dados de Criptomoedas ---")
 
     all_assets_data = get_all_assets_v3()

@@ -17,9 +17,7 @@ if not GOOGLE_SHEETS_CREDENTIALS_PATH or not os.path.exists(
         "Por favor, verifique seu arquivo .env e o caminho do arquivo JSON."
     )
 
-"""
-    Autentica com a API do Google Sheets usando a conta de serviço.
-    """
+
 
 
 def authenticate_gspread():
@@ -35,10 +33,7 @@ def authenticate_gspread():
         raise
 
 
-"""
-    Carrega um DataFrame do Pandas para uma planilha específica do Google Sheets.
-    A planilha será esvaziada antes de carregar os novos dados.
-    """
+
 
 
 def upload_dataframe_to_sheet(
